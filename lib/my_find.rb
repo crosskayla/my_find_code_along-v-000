@@ -11,4 +11,4 @@ def my_find(collection)
   end
 end
 
-my_find(1..10)
+my_find(1..10){ |i| i % 3 == 0 && i % 5 == 0 }
