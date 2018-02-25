@@ -13,4 +13,4 @@ end
 
 my_collect = [1, 2, 3, 4,5,6,7,8,9,10,15, 45]
 
-my_find(my_collect){ |i| i % 3 == 0 && i % 5 == 0 }
+print my_find(my_collect){ |i| i % 3 == 0 && i % 5 == 0 }
